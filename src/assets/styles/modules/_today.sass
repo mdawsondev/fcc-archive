@@ -1,0 +1,102 @@
+.today
+  max-width: 100%
+  margin: 0 .3rem
+  &__content
+    align-items: center
+    display: flex
+    flex-direction: column
+    max-width: 100%
+    width: 50rem
+    +md
+      flex-direction: row
+      margin: 0 auto
+  &__headline
+    padding: 1rem
+    text-align: center
+    &__day
+      animation: .5s ease-out 1s slideInFromLeft
+      animation-fill-mode: backwards
+      font-size: 1.5rem
+      font-weight: 700
+      margin: 0
+      +md
+        font-size: 3rem
+    &__location
+      animation: .5s ease-out 1s slideInFromRight
+      animation-fill-mode: both
+      font-size: 1.3rem
+      margin: 0
+      +md
+        font-size: 2.5rem
+
+  &__info
+    animation: 1s ease-out 2.4s fadeIn
+    animation-fill-mode: both
+    background: rgba(255, 255, 255, .5)
+    border-radius: .5rem
+    box-sizing: border-box
+    display: flex
+    justify-content: space-around
+    padding: 0 .3rem
+    text-align: center
+    width: 100%
+    +md
+      padding: 0 1rem
+      font-size: 1.5rem
+    &__headline
+      font-weight: 900
+      margin: .4rem
+      text-align: center
+      text-transform: uppercase
+      +md
+        margin: 1rem
+    &__highlow
+      font-size: 1rem
+    &__temp
+      cursor: pointer
+      &feel
+        font-size: 1rem
+    &--inline
+      display: inline
+    &__official
+      padding: .5rem
+      text-align: justify
+      font-size: .9rem
+      margin-bottom: 0
+      +md
+        margin-bottom: 1rem
+        font-size: 1.1rem
+    &--no-margin
+      margin: 0
+    &--night
+      background: rgba(0, 0, 0, .5)
+    &--bold
+      font-weight: 700
+  
+  &__suggestions
+    display: flex
+    p
+      margin: 0
+      font-size: 1rem
+
+  &__suggestions__icons
+    display: flex
+    flex-direction: column
+    justify-content: space-around
+    img
+      width: 1.5rem
+      +md
+        width: 2rem
+  &__suggestions__data
+    display: flex
+    flex-direction: column
+    justify-content: space-around
+    p
+      font-size: .7rem
+      +md
+        font-size: .9rem
+  &__suggestions--disable
+    opacity: .3
+
+  &__now
+    max-width: 70%

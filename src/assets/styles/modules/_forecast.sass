@@ -1,0 +1,42 @@
+.forecast
+  animation: 1s ease-out 2.8s fadeIn
+  animation-fill-mode: both
+  background: rgba(255, 255, 255, .5)
+  border-radius: .5rem
+  display: flex
+  flex-direction: column
+  margin: .3rem
+  max-width: 100%
+  text-align: center
+  +md
+    width: 50rem
+
+  &__days
+    +md
+      font-size: 1.3rem
+      font-weight: 700
+
+  &__highlow
+    font-size: .8rem
+    margin: 0 0 1rem
+    font-weight: 700
+    >:nth-child(1)
+      color: #910000
+    >:nth-child(2)
+      color: #56a0ee
+    +md
+      margin: -1rem 0 1rem
+      font-size: 1.5rem
+
+  p
+    margin: 1rem 0 0
+    width: 7rem
+    +md
+      margin: 1rem 0 -1rem
+
+  &--flex-ltr
+    display: flex
+    justify-content: space-around
+
+  &--night
+    background: rgba(0, 0, 0, .5)

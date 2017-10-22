@@ -1,0 +1,82 @@
+$location: '../../assets/img/icons/animated'
+$blue: #fff
+
+.icon
+  background-repeat: no-repeat
+  background-position: center
+  background-size: contain
+  animation: 1s ease-out 2s fadeIn
+  animation-fill-mode: backwards
+  
+  &--chanceflurries
+    background-image: url($location + '/snowy-4.svg')
+
+  &--chancerain
+    background-image: url($location + '/rainy-4.svg')
+
+  &--chancesleet
+    background-image: url($location + '/snowy-7.svg')
+
+  &--chancesnow
+    background-image: url($location + '/snowy-5.svg')
+
+  &--chancetstorms
+    background-image: url($location + '/thunder.svg')
+
+  &--clear
+    background-image: url($location + '/day.svg')
+
+  &--clear--night
+    background-image: url($location + '/night.svg')
+
+  &--cloudy
+    background-image: url($location + '/cloudy.svg')
+
+  &--flurries
+    background-image: url($location + '/snowy-4.svg')
+
+  &--fog
+    background-image: url($location + '/cloudy.sbg')
+
+  &--hazy
+    background-image: url($location + '/cloudy.svg')
+
+  &--mostlycloudy
+    background-image: url($location + '/cloudy.svg')
+
+  &--mostlysunny
+    background-image: url($location + '/cloudy-day-1.svg')
+
+  &--partlycloudy
+    background-image: url($location + '/cloudy-day-3.svg')
+
+  &--partlysunny
+    background-image: url($location + '/cloudy-day-2.svg')
+
+  &--sleet
+    background-image: url($location + '/rain-7.svg')
+
+  &--rain
+    background-image: url($location + '/rainy-6.svg')
+
+  &--snow
+    background-image: url($location + '/snowy-6.svg')
+
+  &--sunny
+    background-image: url($location + '/day.svg')
+
+  &--tstorms
+    background-image: url($location + '/thunder.svg')
+
+  &--main
+    height: 20rem
+    margin: -5rem 0
+    vertical-align: top
+    width: 100%
+
+  &--mini
+    height: 3rem
+    width: 3rem
+    +md
+      width: 7rem
+      height: 7rem
