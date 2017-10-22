@@ -44,7 +44,7 @@ function init() {
     }
 
     if (today.uvi < 4) {
-      uvwarn = 'None'
+      uvwarn = 'Not Needed'
       document.getElementById('sunscreen').classList.add('today__suggestions--disable');
     } else {
       uvwarn = 'Use Sunscreen'
