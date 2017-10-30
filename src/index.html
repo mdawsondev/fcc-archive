@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Calculator Emulator</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="assets/styles/main.css">
+  <script src="https://use.fontawesome.com/31b02488b8.js"></script>
+  <script src="assets/scripts/Vendor.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="status">
+      <div class="status__left">
+        <a href="http://github.com/mdawsondev/" target="blank"><i class="fa fa-github-alt" aria-hidden="true"></i></a>
+        <i class="fa fa-snapchat-ghost" aria-hidden="true"></i>
+        <i class="fa fa-envelope" aria-hidden="true"></i>
+      </div>
+      <div class="status__center">
+      </div>
+      <div class="status__right">
+        <i class="fa fa-clock-o" aria-hidden="true"></i>
+        <i class="fa fa-wifi" aria-hidden="true"></i>
+        <i class="fa fa-signal" aria-hidden="true"></i>
+        <p>75%</p>
+        <i class="fa fa-battery-3" aria-hidden="true"></i>
+        <p>12:34 PM</p>
+      </div>
+    </div>
+    <div class="history">
+      <p class="history__container" id="history"></p>
+    </div>
+    <div class="output">
+      <p id="output">0</p>
+    </div>
+    <div class="buttons">
+      <div class="buttons__top">
+        <button class="clear btn-dark" id="ac">AC</button>
+        <button class="clear btn-dark" id="ce">CE</button>
+        <button class="btn btn-dark" id="*">&times;</button>
+        <button class="btn btn-dark" id="/">&divide;</button>
+      </div>
+      <div class="buttons__bottom">
+        <div class="buttons__bottom__numbers">
+          <button class="btn btn-light" id="1">1</button>
+          <button class="btn btn-light" id="2">2</button>
+          <button class="btn btn-light" id="3">3</button>
+          <button class="btn btn-light" id="4">4</button>
+          <button class="btn btn-light" id="5">5</button>
+          <button class="btn btn-light" id="6">6</button>
+          <button class="btn btn-light" id="7">7</button>
+          <button class="btn btn-light" id="8">8</button>
+          <button class="btn btn-light" id="9">9</button>
+          <div class="buttons__bottom__numbers__larger">
+            <button class="btn btn-light" id="0">0</button>
+            <button class="btn btn-light" id=".">.</button>
+          </div>
+        </div>
+        <div class="buttons__bottom__aside">
+          <button class="ans btn-dark" id="ans">Ans</button>
+          <button class="btn btn-dark" id="-">&minus;</button>
+          <button class="btn btn-dark" id="+">+</button>
+          <button class="total btn-dark" id="total">=</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="shine"></div>
+  <script src="assets/scripts/Main.js"></script>
+</body>
+
+</html>

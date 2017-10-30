@@ -1,0 +1,42 @@
+.buttons
+  display: grid
+  grid-template: 20% 80% / 100%
+
+.buttons__top
+  display: grid
+  grid-template: 100% / 1fr 1fr 1fr 1fr
+
+.buttons__bottom
+  display: grid
+  grid-template: 100% / 3fr 1fr
+
+.buttons__bottom__aside
+  display: grid
+  grid-template: 1fr 1fr 1fr 1fr / 100%
+
+.buttons__bottom__numbers
+  display: grid
+  grid-template: 1fr 1fr 1fr 1fr / 1fr 1fr 1fr
+
+.buttons__bottom__numbers__larger
+  display: grid
+  grid-template: 100% / 2fr 1fr
+  grid-area: 4 / 1 / 4 / span 3
+
+button
+  border: 1px solid #000
+  color: #ccc
+  font-size: .8rem
+  font-weight: 700
+  outline: none
+  transition: all .2s ease-in-out
+
+.btn-dark
+  background: #333
+
+.btn-light
+  background: #444
+
+button:hover
+  background: orange
+  color: #000
