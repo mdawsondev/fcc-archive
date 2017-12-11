@@ -102,8 +102,8 @@ function init() {
 
     //Weekly Forecast
     for (var i = 1, j = date.getDay(); i < 7; i++, j++) {
-      if (j == dayShort.length)
-        j = 0
+      if (j == dayShort.length-1)
+        j = -1
       document.getElementById('forecast__' + i + '__day').innerHTML = dayShort[j+1];
       document.getElementById('forecast__' + i + '__icon').classList.add('icon--' + data.forecast.simpleforecast.forecastday[i].icon);
       document.getElementById('forecast__' + i + '__high').innerHTML = data.forecast.simpleforecast.forecastday[i].high.fahrenheit;
