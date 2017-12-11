@@ -3,7 +3,7 @@ This repo contains archive-only projects that were required to complete freeCode
 
 That said, they do contain some useful code, and are required to remain online to retain the certficiates. I felt that consolidating them into one major repo and archiving them was the most effective way to keep them organized and out of the way.
 
-Projects have been listed by order of completion in ascending order; some contain bugs, others contain poorly written code. These projects were *early learning experiences*, which is why I don't want to spend any more time on them. There's bigger and better things to move on to!
+Projects have been listed by order of completion in ascending order; some contain bugs, others contain poorly written code. These projects were *early learning experiences*, which is why I don't want to spend any more time on them. There are bigger and better projects to move on to!
 
 ## Projects
 *Clicking on the project title will take you to a live version.*
