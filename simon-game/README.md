@@ -1,2 +1,2 @@
-# Project Title
-Project description.
+# Simon Game
+A music-based simon game.
