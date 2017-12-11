@@ -1,0 +1,23 @@
+.background
+  background: url('../../assets/img/bg-sm.jpg') center center no-repeat
+  background-size: cover
+  +md
+    background: url('../../assets/img/bg-md.jpg') center center no-repeat
+    background-size: cover
+  +lg
+    background: url('../../assets/img/bg-lg.jpg') center center no-repeat
+    background-size: cover
+
+.background__cover
+  align-items: center
+  background: rgba(0, 22, 55, .8)
+  display: flex
+  flex-direction: column
+  overflow: auto
+  +md
+    justify-content: center
+  
+
+.background--full
+  height: 100%
+  width: 100%

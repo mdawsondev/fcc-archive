@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>pomodoro-drip</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="assets/styles/main.css">
+  <script src="assets/scripts/Vendor.js"></script>
+</head>
+
+<body>
+  <div class="background">
+    <div class="wrapper">
+      <header class="header">
+        <h1>Pomodoro Drip</h1>
+      </header>
+      <div class="emoticon">
+        <div class="emoticon__face"></div>
+      </div>
+      <div class="motivation">
+        <p>I'm ready when you are!</p>
+      </div>
+      <div class="clock">
+        <p id="clock">--:--</p>
+      </div>
+      <div class="bar__container">
+        <div class="bar"></div>
+      </div>
+      <div class="settings">
+        <div class="settings__start">
+          <button id="start" class="btn">Start</button>
+          <button id="pause" class="btn btn--hide">Pause</button>
+          <button id="stop" class="btn btn--hide">Stop</button>
+        </div>
+        <div class="settings__times">
+          <div class="settings__times__container">
+            <span class="settings__description">Work Period</span>
+            <div class="settings__times__container__sub">
+              <span class="settings__minutes" id="workmins">25</span>
+              <div class="modify">
+                <span class="arrowup changetime" id="wup">&#9650;</span>
+                <span class="arrowdown changetime" id="wdown">&#9660;</span>
+              </div>
+            </div>
+          </div>
+          <div class="settings__times__container">
+            <span class="settings__description">Short Breaks</span>
+            <div class="settings__times__container__sub">
+              <span class="settings__minutes" id="shortbreak">5</span>
+              <div class="modify">
+                <span class="arrowup changetime" id="sup">&#9650;</span>
+                <span class="arrowdown changetime" id="sdown">&#9660;</span>
+              </div>
+            </div>
+          </div>
+          <div class="settings__times__container">
+            <span class="settings__description">Long Breaks</span>
+            <div class="settings__times__container__sub">
+              <span class="settings__minutes" id="longbreak">25</span>
+              <div class="modify">
+                <span class="arrowup changetime" id="lup">&#9650;</span>
+                <span class="arrowdown changetime" id="ldown">&#9660;</span>
+              </div>
+            </div>
+          </div>
+          <div class="settings__default">
+            <button class="btn btn--default" id="default">Default</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <script src="assets/scripts/Main.js"></script>
+</body>
+
+</html>

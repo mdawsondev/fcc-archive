@@ -1,0 +1,41 @@
+$card-size: 20rem
+
+.streamers
+  display: flex
+  justify-content: space-around
+  margin: 0 auto 2rem
+  flex-wrap: wrap
+  width: 100%
+  +md
+    width: 80%
+
+.streamers__card
+  background: $main-1
+  border: 2px solid lighten($main-1, 15%)
+  box-shadow: 1rem 1rem .2rem darken($main-2, 10%)
+  color: $main-5
+  display: flex
+  flex-direction: column
+  justify-content: space-between
+  margin: 1rem 1rem 1rem 0
+  padding: .5rem
+  vertical-align: top
+  +md
+    margin: 1rem
+    width: $card-size
+    height: $card-size
+  p
+    margin: 0
+
+.streamers__current
+  font-size: .8rem
+  font-weight: 700
+  margin-bottom: 2rem
+
+
+.streamers__data
+  color: lighten($twitch, 20%)
+  display: flex
+  font-size: .8rem
+  font-weight: 700
+  justify-content: space-between

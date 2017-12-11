@@ -1,0 +1,25 @@
+.results
+  background: $lightmain
+  border-radius: .4rem
+  border-top: 2px solid darken($orange, 20%)
+  box-shadow: .5rem .5rem .5rem darken($darkmain, 10%)
+  color: #aaa
+  opacity: 0
+  margin: 0 auto 1rem
+  width: 90%
+  transition: all .2s ease-in-out
+  +md
+    padding: 1rem  
+    width: 50%
+
+.results__card
+  background: lighten($lightmain, 10%)
+  color: lighten($lightmain, 60%)
+  margin: .5rem
+  padding: .5rem
+  +md
+    margin: 1rem
+    padding: 1rem
+
+.searchmatch
+  color: lighten($green, 40%)

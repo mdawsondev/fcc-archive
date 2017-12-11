@@ -1,0 +1,64 @@
+.card
+  background: rgba(0, 0, 0, .5)
+  background-size: cover
+  border-bottom: 1px solid royalblue
+  border-radius: .5rem
+  border-left: 1px solid cornflowerblue
+  border-right: 1px solid royalblue
+  border-top: 1px solid cornflowerblue
+  box-shadow: .5rem .5rem 2rem black
+  box-sizing: border-box
+  color: #fff
+  margin: .5rem
+  text-align: center
+  width: 95%
+  top: 0
+
+  +md
+    height: auto
+    margin: 0 auto
+    width: 50rem
+
+.card__character
+  border-radius: .5rem
+  max-height: 15rem
+  +md
+    max-height: 20rem
+
+.card__info--italics
+  font-style: italic
+
+.card__info--bold
+  font-weight: 700
+
+.card__quote
+  font-size: 1.3rem
+  font-weight: 700
+  margin: 0
+  padding: 1rem
+  text-align: justify
+  +md
+    font-size: 2rem
+    padding: 2rem
+
+.card__quote__container
+  display: flex
+  justify-content: space-between
+  width: 100%
+
+.card__quote__tag
+  width: 1rem
+  padding: .25rem
+  +md
+    padding: 2rem
+    width: 3rem
+
+.card__quote__tag--bottom
+  align-self: flex-end
+
+.card__quote__tag--color
+  filter: invert(100%)
+  opacity: .2
+
+.card__quote__tag--top
+  align-self: flex-start

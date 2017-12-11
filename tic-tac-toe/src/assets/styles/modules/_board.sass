@@ -1,0 +1,22 @@
+.board
+  height: 20rem
+  width: 20rem
+  margin: 0 auto
+
+.board__squares
+  display: grid
+  grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr
+  height: 100%
+
+.board__square
+  align-items: center
+  border: 2px solid black
+  display: flex
+  font-size: 5rem
+  height: 100%
+  justify-content: center
+  transition: all 1s linear
+
+.board__square__symbols
+  transition: opacity 1s linear
+  opacity: 0

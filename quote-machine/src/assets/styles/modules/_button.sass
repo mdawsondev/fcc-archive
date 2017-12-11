@@ -1,0 +1,36 @@
+.btn
+  border: 0
+  border-radius: .5rem
+  box-shadow: .5rem .5rem 2rem black
+  padding: 1rem 2rem
+  margin: 1rem
+  outline: none
+  cursor: pointer
+  +md
+    margin: 2rem
+
+.btn--social
+  vertical-align: middle
+  box-shadow: 0 0 3rem royalblue
+  background: rgba(royalblue, .4)
+  width: 2rem
+  filter: saturate(30%)
+  transform: scale(.7)
+  transition: all .5s ease-out
+  &:hover
+    filter: saturate(100%)
+    transform: scale(1)
+
+.btn--styled
+  color: cornflowerblue
+  background: rgba(black, .3)
+  text-transform: uppercase
+  font-size: .8rem
+  font-weight: 900
+  border-top: 1px solid cornflowerblue
+  border-bottom: 1px solid royalblue
+  border-left: 1px solid cornflowerblue
+  border-right: 1px solid royalblue
+  transition: all .5s ease-out
+  &:hover
+    transform: scale(1.05)

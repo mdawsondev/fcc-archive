@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Sci-Fi Quote Machine</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="assets/styles/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Abel|Pragati+Narrow" rel="stylesheet">
+  <script src="assets/scripts/Vendor.js"></script>
+</head>
+
+<body>
+  <div class="background background--full">
+    <div class="background__cover background--full">
+      <div class="title">
+        <h1>Sci-Fi Quotes</h1>
+      </div>
+      <div class="card" id="card">
+        <div class="card__quote__container">
+          <img class="card__quote__tag card__quote__tag--top card__quote__tag--color" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Quote_left_font_awesome.svg/240px-Quote_left_font_awesome.svg.png" alt="">
+          <p id="quote" class="card__quote">-</p>
+          <img class="card__quote__tag card__quote__tag--bottom card__quote__tag--color" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Quote_right_font_awesome.svg/240px-Quote_right_font_awesome.svg.png" alt="">          
+        </div>
+        <img id="char-image" class="card__character" src='#'>
+        <p class="card__info">&mdash; <span class="card__info--bold" id="char-name">-</span>, <span class="card__info--italics" id="show">-</span></p>
+      </div>
+      <div class="features">
+        <button class="btn btn--styled" id="next-quote">Next Quote</button>
+        <a id="twitter" href="#" target="_blank"><img class="btn--social" src="./assets/img/twitter.svg"></a>
+      </div>
+    </div>
+  </div>
+  <script src="assets/scripts/Main.js"></script>
+</body>
+
+</html>

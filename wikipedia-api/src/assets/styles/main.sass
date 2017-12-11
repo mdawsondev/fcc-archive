@@ -1,0 +1,28 @@
+@import 'default'
+@import './vendor/normalize'
+@import './modules/variables'
+@import './modules/btn'
+@import './modules/card'
+@import './modules/header'
+@import './modules/random'
+@import './modules/results'
+@import './modules/search'
+
+body
+  background: $darkmain
+  font-family: verdana
+
+body,
+html
+  height: 100%
+  margin: 0
+  padding: 0
+  width: 100%
+  overflow: auto
+
+a
+  color: $orange
+  text-decoration: none
+  transition: all .2s linear
+  &:hover
+    color: lighten($orange, 20%)
