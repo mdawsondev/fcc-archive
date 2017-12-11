@@ -6,12 +6,14 @@ That said, they do contain some useful code, and are required to remain online t
 Projects have been listed by order of completion in ascending order; some contain bugs, others contain poorly written code. These projects were *early learning experiences*, which is why I don't want to spend any more time on them. There's bigger and better things to move on to!
 
 ## Projects
-* [Quote Machine](https://mdawsondev.github.io/fcc-archive/#) - Generate quotes from sci-fi shows featuring custom JSON API.
-* [Wikipedia API](https://mdawsondev.github.io/fcc-archive/#) - Small search engine using Wikipedia's API.
-* [Twitch API](https://mdawsondev.github.io/fcc-archive/#) - Display table of programmers currently streaming on Twitch.tv.
-* [Pomodoro Clock](https://mdawsondev.github.io/fcc-archive/#) - Pomodoro clock with customization and color indicators.
-* [Tic-Tac-Toe](https://mdawsondev.github.io/fcc-archive/#) - Tic-tac-toe, featuring AI and multiplayer.
-* [Simon Game](https://mdawsondev.github.io/fcc-archive/#) - Musical edition of Simon featuring guitar chords.
+*Clicking on the project title will take you to a live version.*
+
+* [Quote Machine](https://mdawsondev.github.io/fcc-archive/quote-machine/docs/index.html) - Generate quotes from sci-fi shows featuring custom JSON API.
+* [Wikipedia API](https://mdawsondev.github.io/fcc-archive/wikipedia-api/docs/index.html) - Small search engine using Wikipedia's API.
+* [Twitch API](https://mdawsondev.github.io/fcc-archive/twitch-api/docs/index.html) - Display table of programmers currently streaming on Twitch.tv.
+* [Pomodoro Clock](https://mdawsondev.github.io/fcc-archive/pomodoro-clock/docs/index.html) - Pomodoro clock with customization and color indicators.
+* [Tic-Tac-Toe](https://mdawsondev.github.io/fcc-archive/tic-tac-toe/docs/index.html) - Tic-tac-toe, featuring AI and multiplayer.
+* [Simon Game](https://mdawsondev.github.io/fcc-archive/simon-game/docs/index.html) - Musical edition of Simon featuring guitar chords.
 
 
 ## Licenses
