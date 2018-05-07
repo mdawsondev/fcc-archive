@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>weather-app</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="assets/styles/main.css">
+  <script src="assets/scripts/Vendor.js"></script>
+</head>
+
+<body>
+  <div id="background" class="background">
+    <div class="today">
+      <div class="today__headline">
+        <p class="today__headline__day">
+          <span id="day">Day</span>
+          <span id="greeting">Time</span>
+        </p>
+        <p class="today__headline__location">
+          <span id="location">Location</span>
+        </p>
+      </div>
+      <div class="today__content">
+        <div id="icon" class="icon icon--main"></div>
+        <div id="today__info" class="today__info">
+          <div class="today__now">
+            <p class="today__info__headline">Now</p>
+            <p class="today__info__weather today__info--inline today__info--bold">
+              <span id="weather">Weather</span>
+            </p>
+            <p class="today__info__temp today__info--no-margin today__info--inline  today__info--bold" id="changeunit">
+              <span id="temp"> - </span>&#176
+              <span id="unit">F</span>
+            </p>
+            <p class="today__info__tempfeel today__info--no-margin">Feels Like:
+              <span id="tempfeel"> - </span>&#176</p>
+            <p class="today__info__highlow today__info--no-margin">High:
+              <span id="temphigh"> - </span>&#176 | Low:
+              <span id="templow"> - </span>&#176</p>
+            <p id="official" class="today__info__official">-</p>
+            
+          </div>
+          <div class="today__suggestions">
+            <div class="today__suggestions__icons">
+              <p>
+                <img id="jacket" src="assets/img/icons/jacket.svg" alt="Jacket icon.">
+              </p>
+              <p>
+                <img id="umbrella"  src="assets/img/icons/umbrella.svg" alt="Umbrella icon.">
+              </p>
+              <p>
+                <img id="sunscreen"  src="assets/img/icons/sunscreen.svg" alt="Sunscreen icon.">
+              </p>
+            </div>
+            <div class="today__suggestions__data">
+                <p><span id="summary">-</span></p>
+                <p><span id="rain">-</span>%</p>
+                <p><span id="uv-index">-</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="forecast" class="forecast">
+      <div class="forecast__days forecast--flex-ltr">
+        <p id="forecast__1__day">-</p>
+        <p id="forecast__2__day">-</p>
+        <p id="forecast__3__day">-</p>
+        <p id="forecast__4__day">-</p>
+        <p id="forecast__5__day">-</p>
+        <p id="forecast__6__day">-</p>
+      </div>
+      <div class="forecast__weather forecast--flex-ltr">
+        <div id="forecast__1__icon" class="icon icon--mini"></div>
+        <div id="forecast__2__icon" class="icon icon--mini"></div>
+        <div id="forecast__3__icon" class="icon icon--mini"></div>
+        <div id="forecast__4__icon" class="icon icon--mini"></div>
+        <div id="forecast__5__icon" class="icon icon--mini"></div>
+        <div id="forecast__6__icon" class="icon icon--mini"></div>
+      </div>
+      <div class="forecast__data forecast--flex-ltr">
+        <div class="forecast__highlow">
+          <span id="forecast__1__high">-</span> |
+          <span id="forecast__1__low">-</span>
+        </div>
+        <div class="forecast__highlow">
+          <span id="forecast__2__high">-</span> |
+          <span id="forecast__2__low">-</span>
+        </div>
+        <div class="forecast__highlow">
+          <span id="forecast__3__high">-</span> |
+          <span id="forecast__3__low">-</span>
+        </div>
+        <div class="forecast__highlow">
+          <span id="forecast__4__high">-</span> |
+          <span id="forecast__4__low">-</span>
+        </div>
+        <div class="forecast__highlow">
+          <span id="forecast__5__high">-</span> |
+          <span id="forecast__5__low">-</span>
+        </div>
+        <div class="forecast__highlow">
+          <span id="forecast__6__high">-</span> |
+          <span id="forecast__6__low">-</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="assets/scripts/Main.js"></script>
+</body>
+
+</html>
